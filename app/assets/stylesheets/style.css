@@ -7,3 +7,24 @@
 body {
   background-color: #F5F5F5;
 }
+.profpic {
+  width: 400px;
+  padding-left: 150px;
+}
+.profpic2 {
+  width: 400px;
+  padding-right: 100px;
+  padding-left: 300px;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+p{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}

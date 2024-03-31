@@ -3,7 +3,9 @@ class PagesController < ApplicationController
 
   # GET /pages or /pages.json
   def index
-    @pages = Page.all
+    @video_url = "https://www.youtube.com/embed/5BDTetOn0QQ?si=ucFyUv95z3mTpSRu"
+    @secondvideo_url = "https://www.youtube.com/embed/jAqkiw0bsg4?si=hYdvRpimyOlZYifK"
+    @thirdvideo_url = ""
   end
 
   # GET /pages/1 or /pages/1.json

@@ -1,14 +1,16 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Pages</h1>
-
-<div id="pages">
-  <% @pages.each do |page| %>
-    <%= render page %>
-    <p>
-      <%= link_to "Show this page", page %>
-    </p>
-  <% end %>
+<button type="button" class="btn btn btn-secondary">About me</button>
+<br>
+<%= image_tag 'profpic2.jpeg', class:'profpic' %>
+<%= image_tag 'profpic.jpeg', class:'profpic2' %>
+<br>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @video_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<%= link_to "New page", new_page_path %>
+<br>
+<p class="text-center">
+  This is a quick description of what this video is about.
+</p>
+<br>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @secondvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
