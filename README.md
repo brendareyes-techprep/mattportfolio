@@ -1,14 +1,15 @@
-# Rails Template
+# This is Matt's Web Portfolio
+- I'm using the rails template from DPI
+## I will be using bootstrap.
+## The idea for this 
+- Have the work as a landing page.
+- Have contact info in the about me.
+### Videos
+- I will be using the Youtube API.
+### Photos
+- Reg img tags
 
-This is a base Ruby on Rails repository configured for learning with Codespaces (and Gitpod).
-
-- Ruby version: `3.2.1`
-- Rails version: `7.0.4.3`
-
-
-We've added additional Ruby gems and other software that aren't automatically available in a new Rails app.
-
-### Additional gems:
+### Gems:
 
 - [`appdev_support`](https://github.com/firstdraft/appdev_support)
 - [`annotate`](https://github.com/ctran/annotate_models)
