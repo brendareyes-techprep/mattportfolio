@@ -5,16 +5,15 @@ class PagesController < ApplicationController
   def index
     @video_url = "https://www.youtube.com/embed/5BDTetOn0QQ?si=ucFyUv95z3mTpSRu"
     @secondvideo_url = "https://www.youtube.com/embed/jAqkiw0bsg4?si=hYdvRpimyOlZYifK"
-    @thirdvideo_url = ""
+    @thirdvideo_url = "https://www.youtube.com/embed/EI6e4JEWamM?si=WScHhPANY6B5qKKz"
+    @forthvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
   end
 
   # GET /pages/1 or /pages/1.json
   def show
   end
 
-  # GET /pages/new
-  def new
-    @page = Page.new
+  def about
   end
 
   # GET /pages/1/edit

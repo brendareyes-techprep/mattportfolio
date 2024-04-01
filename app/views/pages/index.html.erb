@@ -1,8 +1,27 @@
-<button type="button" class="btn btn btn-secondary">About me</button>
+<div class="container text-center pt-3">
+  <button type="button" class="btn btn-secondary p-2" style="width: 100px;" onclick="window.location.href='/about';">About me</button>
+</div>
 <br>
-<%= image_tag 'profpic2.jpeg', class:'profpic' %>
-<%= image_tag 'profpic.jpeg', class:'profpic2' %>
-<br>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <%= image_tag "profpic.jpeg", class: "card-img-top", alt: "Photo 1" %>
+      <div class="card-body">
+        <h5 class="card-title">Photo #1</h5>
+        <p class="card-text">This is a description</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <%= image_tag "profpic2.jpeg", class: "card-img-top", alt: "Photo 2" %>
+      <div class="card-body">
+        <h5 class="card-title">Photo 2</h5>
+        <p class="card-text">This is a description</p>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="video">
   <iframe width="560" height="315" src="<%= @video_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -14,3 +33,20 @@
 <div class="video">
   <iframe width="560" height="315" src="<%= @secondvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<p class='text-center'> This is a description.
+</p>
+<br>
+<br>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @thirdvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class='text-center'> This is a description.
+</p>
+<br>
+<br>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @forthvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class='text-center'> This is a description.
+</p>
+<br>
