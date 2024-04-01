@@ -4,27 +4,41 @@
   margin-right: auto;
   width: 250px;
 }
+
 body {
   background-color: #F5F5F5;
+  font-family: 'Alegreya', serif;
+  font-size: 19px;
 }
+
 .profpic {
   width: 400px;
   padding-left: 150px;
 }
+
 .profpic2 {
   width: 400px;
   padding-right: 100px;
   padding-left: 300px;
 }
-.video{
+
+.video {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   padding-bottom: 10px;
 }
-p{
+
+p {
   display: flex;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 50px;
+  font-family: 'Alegreya', serif;
+  font-size: 19px;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 40px;
 }
