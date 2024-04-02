@@ -4,3 +4,4 @@
 //= link_tree ../../../vendor/javascript .js
 //= link_directory ../stylesheets .css
 //= link style.css
+//= link profpic.jpeg
