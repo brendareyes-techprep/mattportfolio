@@ -3,14 +3,14 @@ class PagesController < ApplicationController
 
   # GET /pages or /pages.json
   def work
-    @video_url = "https://www.youtube.com/embed/5BDTetOn0QQ?si=ucFyUv95z3mTpSRu"
-    @secondvideo_url = "https://www.youtube.com/embed/jAqkiw0bsg4?si=hYdvRpimyOlZYifK"
-    @thirdvideo_url = "https://www.youtube.com/embed/EI6e4JEWamM?si=WScHhPANY6B5qKKz"
-    @forthvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
-    @fivevideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
-    @sixvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
-    @sevenvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
-    @eightvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
+    @video_url = "https://www.youtube.com/embed/Oug6tdHidaM"
+    @secondvideo_url = "https://www.youtube.com/embed/N-arOSS5wUc"
+    @thirdvideo_url = "https://www.youtube.com/embed/gmzjHs_Ein8"
+    @forthvideo_url = "https://www.youtube.com/embed/StO8JA2odAk"
+    @fivevideo_url = "https://www.youtube.com/embed/ffzCQFbP0g0"
+    @sixvideo_url = "https://www.youtube.com/embed/24HQ7S2qyd8"
+    @sevenvideo_url = "https://www.youtube.com/embed/hjYxM9a-KKk"
+    @eightvideo_url = "https://www.youtube.com/embed/w4Q15t9aANU"
   end
 
   # GET /pages/1 or /pages/1.json
