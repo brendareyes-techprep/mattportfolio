@@ -7,6 +7,10 @@ class PagesController < ApplicationController
     @secondvideo_url = "https://www.youtube.com/embed/jAqkiw0bsg4?si=hYdvRpimyOlZYifK"
     @thirdvideo_url = "https://www.youtube.com/embed/EI6e4JEWamM?si=WScHhPANY6B5qKKz"
     @forthvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
+    @fivevideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
+    @sixvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
+    @sevenvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
+    @eightvideo_url = "https://www.youtube.com/embed/08aCOf088I8?si=45e5jhRHblN1Y_M4"
   end
 
   # GET /pages/1 or /pages/1.json

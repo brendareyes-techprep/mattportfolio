@@ -2,27 +2,6 @@
 <div class="container text-center pt-3">
   <button type="button" class="btn btn-dark p-2" style="width: 100px;" onclick="window.location.href='/about';">about me.</button>
 </div>
-<br>
-<div class="row row-cols-1 row-cols-md-2 g-4">
-  <div class="col">
-    <div class="card">
-      <%= image_tag "profpic.jpeg", class: "card-img-top", alt: "Photo 1" %>
-      <div class="card-body">
-        <h5 class="card-title">Photo #1</h5>
-        <p class="card-text">This is a description</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <%= image_tag "profpic2.jpeg", class: "card-img-top", alt: "Photo 2" %>
-      <div class="card-body">
-        <h5 class="card-title">Photo 2</h5>
-        <p class="card-text">This is a description</p>
-      </div>
-    </div>
-  </div>
-</div>
 <div class="video">
   <iframe width="560" height="315" src="<%= @video_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -30,7 +9,21 @@
 <p class="text-center">
   This is a quick description of what this video is about.
 </p>
-<br>
+<div class="container text-center pt-3">
+<div class="container">
+  <div class="row justify-content-center"> <!-- Center the row -->
+    <div class="col-md-6"> <!-- Specify the column width -->
+      <div class="card">
+        <%= image_tag "profpic.jpeg", class: "card-img-top", alt: "Photo 1" %>
+        <div class="card-body">
+          <h5 class="card-title">Photo #1</h5>
+          <p class="card-text">This is a description</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 <div class="video">
   <iframe width="560" height="315" src="<%= @secondvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -52,6 +45,40 @@
 </p>
 <br>
 <div class="container text-center pt-3">
-  <button type="button" class="btn btn-dark p-2" style="width: 100px;" onclick="window.location.href='/about';">about me.
-  </button>
+<div class="container">
+  <div class="row justify-content-center"> <!-- Center the row -->
+    <div class="col-md-6"> <!-- Specify the column width -->
+      <div class="card">
+        <%= image_tag "profpic2.jpeg", class: "card-img-top", alt: "Photo 1" %>
+        <div class="card-body">
+          <h5 class="card-title">Photo #1</h5>
+          <p class="card-text">This is a description</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+</div>
+  <div class="video">
+  <iframe width="560" height="315" src="<%= @fivevideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class='text-center'> This is a description.
+</p>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @sixvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class='text-center'> This is a description.
+</p>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @sevenvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class='text-center'> This is a description.
+</p>
+<div class="video">
+  <iframe width="560" height="315" src="<%= @eightvideo_url %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<p class='text-center'> This is a description.
+</p>
+<!--keep this at the end-->
+  <button type="button" class="btn btn-dark p-2 text-center" style="width: 100px;" onclick="window.location.href='/about';">about me.
+  </button>
