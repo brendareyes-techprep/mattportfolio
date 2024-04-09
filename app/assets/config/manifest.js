@@ -6,4 +6,4 @@
 //= link style.css
 //= link profpic.jpeg
 //= link application.css
-
+//= link application.js
