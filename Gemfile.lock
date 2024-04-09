@@ -453,7 +453,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver
   specs_to_readme
-  sprockets-rails
+  sprockets (~> 4.0)
   sqlite3 (~> 1.4)
   stimulus-rails
   table_print
